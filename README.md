@@ -16,4 +16,4 @@ CUDA_VISIBLE_DEVICES=1 nohup python -u runcifar10gpu.py  --job_name=worker --wor
 Similarly, "runimagenetgpu.py" is for training on the ImageNet dataset. <br>
 
 ## Acknowledgements
-Thanks to Hanpeng Hu, Dan Wang, Chuan Wu for their AAAI paper [Distributed Machine Learning through Heterogeneous Edge Systems]([https://dl.acm.org/doi/10.1145/3495243.3517017](https://aaai.org/papers/07179-distributed-machine-learning-through-heterogeneous-edge-systems/)). <br>
+Thanks to Hanpeng Hu, Dan Wang, Chuan Wu for their AAAI paper [Distributed Machine Learning through Heterogeneous Edge Systems](https://aaai.org/papers/07179-distributed-machine-learning-through-heterogeneous-edge-systems/). <br>
