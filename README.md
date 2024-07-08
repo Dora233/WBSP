@@ -12,7 +12,6 @@ CUDA_VISIBLE_DEVICES= nohup python -u runcifar10gpu.py  --job_name=ps --worker_n
 CUDA_VISIBLE_DEVICES=0 nohup python -u runcifar10gpu.py  --job_name=worker --worker_index=0 --base_dir=wbsp/ --port_base=2606 >wk0.log 2>&1 &
 CUDA_VISIBLE_DEVICES=1 nohup python -u runcifar10gpu.py  --job_name=worker --worker_index=1 --base_dir=wbsp/ --port_base=2606 >wk1.log 2>&1 &
 ```
-Similarly, "runimagenetgpu.py" is for training on the ImageNet dataset. <br>
 
 ## Citation
 If you find WBSP useful for your research and applications, please cite using this BibTeX:
